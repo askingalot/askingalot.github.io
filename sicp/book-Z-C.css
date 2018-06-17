@@ -7,8 +7,14 @@ body {
    margin-left: 8%;
    margin-right: 8%;
 
-   font-size: 22pt;
+   font-size: 22px;
    font-weight: 800
+}
+
+@media all and (max-width: 800px) {
+    body {
+        font-size: 30px;
+    }
 }
 
 a {
